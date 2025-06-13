@@ -49,7 +49,7 @@ export const TaskProvider = ({ children }) => {
 
   // const API_BASE_URL = "http://localhost:5000/api/tasks"
   const API_BASE_URL =
-    "https://fullstack-task-izvfob2eg-its7rishis-projects.vercel.app/api/tasks"
+    "https://vercel.com/its7rishis-projects/fullstack-task-app/3MoyXGfsBquYvejzhLQyaXETY8zS/api/tasks"
 
   const fetchTasks = useCallback(async () => {
     dispatch({ type: "LOADING" })
