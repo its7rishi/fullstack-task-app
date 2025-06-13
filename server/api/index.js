@@ -16,7 +16,7 @@ app.use(express.json())
 // Configure Origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://enchanting-entremet-1fafa2.netlify.app/",
+  "https://enchanting-entremet-1fafa2.netlify.app",
 ]
 
 // Middleware for handling CORS
