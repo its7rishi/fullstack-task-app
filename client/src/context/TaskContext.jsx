@@ -47,7 +47,9 @@ export const TaskContext = createContext(initialState)
 export const TaskProvider = ({ children }) => {
   const [state, dispatch] = useReducer(taskReducer, initialState)
 
-  const API_BASE_URL = "http://localhost:5000/api/tasks"
+  // const API_BASE_URL = "http://localhost:5000/api/tasks"
+  const API_BASE_URL =
+    "https://fullstack-task-izvfob2eg-its7rishis-projects.vercel.app/"
 
   const fetchTasks = useCallback(async () => {
     dispatch({ type: "LOADING" })
